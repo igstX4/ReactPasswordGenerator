@@ -15,7 +15,7 @@
 }
 .links {
     display: flex;
-    margin-right: 15vw;
+    margin-right: 4vw;
 }
 .link {
     font-size: 30px;
@@ -44,4 +44,19 @@
 }
 .active {
     color: rgb(0, 212, 141);
+}
+@media screen and  (max-width: 420px) {
+    
+    .link {
+        font-size: 20px;
+    }
+    .Navlink {
+        text-align: center;
+        align-items: center;
+    }
+    .title {
+        font-size: 28px;
+        margin-top: 9px;
+        margin-left: 9px;
+    }
 }

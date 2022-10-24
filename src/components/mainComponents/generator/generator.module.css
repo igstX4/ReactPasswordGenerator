@@ -1,6 +1,6 @@
 .generatorContent {
     background-color: rgb(245, 245, 245);
-    width: 750px;
+    max-width: 750px;
     height: 95px;
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@
 }
 .othercont {
     background-color: white;
-    width: 750px;
+    min-width: 750px;
     border: 1.2px solid rgb(192, 192, 192);
     border-radius: 0 0 10px 10px; 
     min-height: 150px;
@@ -76,4 +76,20 @@
 }
 .bad {
     color: rgb(249, 172, 29)
+}
+@media screen and  (max-width: 425px) {
+.othercont {
+max-width: 395px;
+min-width: 390px;
+}
+ .password {
+    font-size: 4vw;
+    margin-left: 5px;
+    text-align: center;
+ }
+ .update {
+    margin-left: 2px;
+    background-color: rgb(5, 241, 163);
+    border-radius: 50%;
+ }
 }
