@@ -1,6 +1,6 @@
 # Link : https://passwordgenerator121.herokuapp.com/generator
 # Getting Started with Create React App
-# This site is made with https://github.com/senice22
+# This site made with https://github.com/senice22
 ## Available Scripts
 
 In the project directory, you can run:
